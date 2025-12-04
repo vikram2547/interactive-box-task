@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Boxes | Frontend Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <h1 class="title">Interactive Boxes Task</h1>
+
+  <div class="container">
+
+    <!-- BOX 1 -->
+    <div class="box" onclick="toggleBox(1)">
+      <div class="box-header">Top Box</div>
+      <div class="box-content" id="content-1">
+        <h3>Choose Color:</h3>
+        <div class="color-options">
+          <span class="color red"></span>
+          <span class="color green"></span>
+          <span class="color blue"></span>
+        </div>
+
+        <h3>Choose Size:</h3>
+        <div class="size-options">
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 2 -->
+    <div class="box" onclick="toggleBox(2)">
+      <div class="box-header">Middle Box</div>
+      <div class="box-content" id="content-2">
+        <h3>Choose Color:</h3>
+        <div class="color-options">
+          <span class="color yellow"></span>
+          <span class="color purple"></span>
+          <span class="color orange"></span>
+        </div>
+
+        <h3>Choose Size:</h3>
+        <div class="size-options">
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOX 3 -->
+    <div class="box" onclick="toggleBox(3)">
+      <div class="box-header">Bottom Box</div>
+      <div class="box-content" id="content-3">
+        <h3>Choose Color:</h3>
+        <div class="color-options">
+          <span class="color pink"></span>
+          <span class="color teal"></span>
+          <span class="color black"></span>
+        </div>
+
+        <h3>Choose Size:</h3>
+        <div class="size-options">
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
